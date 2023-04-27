@@ -1,0 +1,14 @@
+<script>
+    //Peça para o usuário informar uma data em dias com horas, minutos e segundos e retorne a data em segundos.
+    //ENTRADA 
+    const dias = prompt('Quantos dias?');
+    const horas = prompt('Quantas horas?');
+    const minutos = prompt('Quantos minutos?');
+    const segundos = prompt('Quantos segundos?');
+
+    //PROCESSAMENTO 
+    const tempoEmSegundos = (dias * 86400) + (horas * 3600) + (minutos * 60) + (segundos * 1);
+
+    //SAÍDA 
+    alert(`O total de segundos em ${dias} dias, ${horas} horas, ${minutos} minutos e ${segundos} segundos é de ${tempoEmSegundos} segundos.`);
+</script>

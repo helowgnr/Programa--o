@@ -1,0 +1,15 @@
+<script>
+    //Peça para o usuário informar o salário que recebe mensalmente.
+    //Também peça para informar o percentual que deseja pedir de aumento salarial. 
+    //Calcule qual será o novo salário após o aumento desejado e apresente o resultado.
+
+    //ENTRADA
+    const salarioAtual = prompt("Informe seu salário atual:");
+    const percentualAumento = prompt("Informe o percentual de aumento do salário:");
+
+    //PROCESSAMENTO
+    const salarioFinal = Number(salarioAtual) + (percentualAumento / 100) * salarioAtual;
+
+    //SAÍDA 
+    alert(`O valor final do salário é de ${salarioFinal} reais.`)
+</script>
